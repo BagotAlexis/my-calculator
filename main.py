@@ -15,13 +15,13 @@ fonction = str(input("entrez l'oppération que vous voulez effectuer : sum / sub
 nombre1 = int(input("1er nombre : "))
 nombre2 = int(input("2nd nombre : "))
 
-if fonction == sum:
+if fonction == "sum":
 	print(sum(nombre1, nombre2))
-elif fonction == sub:
+elif fonction == "sub":
 	print(sub(nombre1, nombre2))
-elif fonction == div:
+elif fonction == "div":
 	print(div(nombre1, nombre2))
 else:
-	if  fonction == pow:
+	if  fonction == "pow":
 		print(pow(nombre1, nombre2))
 
