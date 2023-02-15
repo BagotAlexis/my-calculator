@@ -21,6 +21,7 @@ elif fonction == sub:
 	print(sub(nombre1, nombre2))
 elif fonction == div:
 	print(div(nombre1, nombre2))
-else fonction == pow:
-	print(pow(nombre1, nombre2))
+else:
+	if  fonction == pow:
+		print(pow(nombre1, nombre2))
 
