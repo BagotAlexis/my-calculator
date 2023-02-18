@@ -7,7 +7,7 @@ def sub(n1=0, n2=0):
 def div(n1, n2):
 	return n1 // n2
 
-def pow(n1, n2):
+def pow(2, n2):
 	return n1 * n2
 
 fonction = str(input("entrez l'oppération que vous voulez effectuer : sum / sub / div / pow : "))
